@@ -1,38 +1,130 @@
-.App {
+.Form{
+  margin-top: 10%;
+  width: 60%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myBox{
+  height: max-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-label{
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.btn1{
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(172, 239, 151);
+  color: #1f1f1f;
+}
+
+.btn1:active{
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(172, 239, 151);
+  color: #1f1f1f;
+}
+
+.btn1:hover{
+  background-color: black;
   color: white;
+  border-color: rgb(172, 239, 151);
 }
 
-.App-link {
-  color: #61dafb;
+.btn2:hover{
+  background-color: black;
+  color: white;
+  border-color: rgb(154, 116, 223);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn3:hover{
+  background-color: black;
+  color: white;
+  border-color: rgb(26, 163, 205);
+}
+
+.btn4:hover{
+  background-color: black;
+  color: white;
+  border-color: red;
+}
+
+.btn2{
+  margin-top: 20px;
+  float: center;
+  background-color: rgb(154, 116, 223);
+  color: #1f1f1f;
+}
+
+.btn3{
+  margin-top: 20px;
+  float: right;
+  color: #1f1f1f;
+  background-color: rgb(26, 163, 205);
+}
+
+.btn4{
+  margin-top: 20px;
+  float: left;
+  margin-left: 8%;
+  color: #1f1f1f;
+}
+
+.overView{
+  margin-top: 5px;
+}
+
+.preview{
+  margin-top: 100px;
+  text-align: left;
+}
+
+.previewText{
+  margin-top: 20px;
+  text-align: left;
+}
+
+.navBar{
+  background: #1f1f1f;
+  color: aliceblue;
+}
+
+.Prespan{
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.aboutContainer{
+  margin-top: 35px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.aboutTitle{
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.btnEnableDm{
+  margin-top: 40px;
+}
+
+.form-check{
+  margin-right: 30px;
+}
+
+.btnSearch{
+  border-width: 2px;
+  border-color: #5DA3FA;
+  color: #5DA3FA;
+}
+
+.alert{
+  max-width: 20%;
+  text-align: center;
+  float: right;
+  margin-right: 20px;
 }
